@@ -1,0 +1,25 @@
+{
+  "name": "homework-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelpena619/Employee-MGMT"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelpena619/Employee-MGMT"
+  },
+  "homepage": "https://github.com/angelpena619/Employee-MGMT",
+  "dependencies": {
+    "console-table-printer": "^1.6.3",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.2.0",
+    "mysql": "^2.18.1"
+  }
+}
