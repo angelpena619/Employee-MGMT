@@ -465,3 +465,11 @@ var connection = mysql.createConnection({
     })
   };
 
+  deleteSomething = () => {
+    inquirer.prompt([
+      {
+        name: "delete",
+        type: "list",
+        message: "Select something to delete:",
+        choices: ["Delete department", "Delete role", "Delete employee", "EXIT"]
+      }
